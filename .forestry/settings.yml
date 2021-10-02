@@ -19,7 +19,7 @@ sections:
   templates:
   - page
 upload_dir: medash
-public_path: ''
+public_path: https://res.cloudinary.com/eliteaddy/image/upload
 front_matter_path: ''
 use_front_matter_path: 
 file_template: " :filename::year::month::day:"
