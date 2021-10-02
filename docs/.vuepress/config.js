@@ -1,9 +1,9 @@
 module.exports = {
-  title: 'Mediumish',
+  title: 'XVII',
   base: '/',
   dest: 'public',
   description: 'Thoughts, stories and ideas.',
-  logo: './assets/img/logo.png',
+  logo: 'https://res-5.cloudinary.com/hbvjrqyqn/image/upload/q_auto/v1/ghost-blog-images/ghost-35852_640.png',
   theme: require.resolve('../../'),
   themeConfig: {
   authors: [
@@ -70,17 +70,17 @@ module.exports = {
     },
 
     sitemap: {
-      hostname: 'https://mediumish-nine.vercel.app/'
+      hostname: 'https://xvii.vercel.app/'
     },
     comment: {
       service: 'disqus',
-      shortname: 'demowebsite',
+      shortname: 'xvii',
     },
     newsletter: {
       endpoint: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&id=8c3d2d214b'
     },
     feed: {
-      canonical_base: 'https://mediumish-nine.vercel.app/',
+      canonical_base: 'https://xvii.vercel.app/',
     },
     smoothScroll: true
   },
