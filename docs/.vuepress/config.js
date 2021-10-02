@@ -2,22 +2,16 @@ module.exports = {
   title: 'Mediumish',
   base: '/',
   dest: 'public',
-  description: 'Mediumish theme with VuePress and Forestry',
+  description: 'Thoughts, stories and ideas.',
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
   themeConfig: {
   authors: [
       {
-      name: 'Sal',
-      avatar: '/assets/img/sal.jpg',
-      link: 'https://wowthemes.net/donate',
+      name: 'MasterAddy',
+      avatar: 'https://res-2.cloudinary.com/hbvjrqyqn/image/upload/q_auto/v1/ghost-blog-images/C8A8B8E8-580F-4CB5-B928-9497C185CEC4.jpg',
+      link: 'https://addy.vercel.app',
       linktext: 'Follow',
-      },
-      {
-        name: 'John Doe',
-        avatar: '/assets/img/avatar.png',
-        link: 'https://bootstrapstarter.com/',
-        linktext: 'Follow',
       },
     ],
     footer: {
@@ -32,7 +26,7 @@ module.exports = {
         },
         {
           type: 'github',
-          link: 'https://github.com/wowthemesnet/mediumish-vuepress-blog-theme',
+          link: 'https://github.com/masteraddy',
         },
         {
           type: 'gitlab',
@@ -40,7 +34,7 @@ module.exports = {
         },
         {
           type: 'instagram',
-          link: '#',
+          link: 'https://instagram.com/itsmasteraddy',
         },
         {
           type: 'linkedin',
@@ -60,7 +54,7 @@ module.exports = {
         },
         {
           type: 'twitter',
-          link: 'https://twitter.com/wowthemesnet',
+          link: 'https://twitter.com/itsmasteraddy',
         },
         {
           type: 'web',
@@ -69,18 +63,14 @@ module.exports = {
       ],
       copyright: [
         {
-          text: 'Licensed MIT.',
-          link: 'https://bootstrapstarter.com/license/',
-        },
-        {
-          text: 'Made with Mediumish - free Vuepress theme',
-          link: 'https://bootstrapstarter.com/bootstrap-templates/vuepress-theme-mediumish/',
+          text: 'Made by Addy',
+          link: 'https://addy.vercel.app',
         },
       ],
     },
 
     sitemap: {
-      hostname: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/'
+      hostname: 'https://mediumish-nine.vercel.app/'
     },
     comment: {
       service: 'disqus',
@@ -90,7 +80,7 @@ module.exports = {
       endpoint: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&id=8c3d2d214b'
     },
     feed: {
-      canonical_base: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/',
+      canonical_base: 'https://mediumish-nine.vercel.app/',
     },
     smoothScroll: true
   },
