@@ -3,7 +3,7 @@ tags:
 - Test
 - blog
 title: Another One
-date: 2021-10-02 23:00:00 +0000
+date: 
 author: MasterAddy
 featuredimg: https://res.cloudinary.com/eliteaddy/image/upload/v1633228833/medash/1646F0F6-B2AE-4FFF-BF2E-0E4DD918E0FE_moqizi.jpg
 summary: 'Just testing if the date here will work or not '
