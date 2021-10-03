@@ -24,4 +24,5 @@ fields:
   name: summary
   label: summary
 pages:
+- docs/_posts/another-one.md
 - docs/_posts/my-first-fiesta.md
